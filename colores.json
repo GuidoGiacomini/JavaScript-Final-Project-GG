@@ -1,0 +1,66 @@
+[
+    {
+        "colorName": "Default",
+        "colorValue": "#fdfbf7"
+    },
+    {
+        "colorName": "Red",
+        "colorValue": "#ffd6d6"
+    },
+    {
+        "colorName": "Green",
+        "colorValue": "#e2f9e1"
+    },
+    {
+        "colorName": "Blue",
+        "colorValue": "#d6eaff"
+    },
+    {
+        "colorName": "Yellow",
+        "colorValue": "#fff9d6"
+    },
+    {
+        "colorName": "Cyan",
+        "colorValue": "#d6f9f3"
+    },
+    {
+        "colorName": "Magenta",
+        "colorValue": "#ffd6e1"
+    },
+    {
+        "colorName": "Black",
+        "colorValue": "#f0f0f0"
+    },
+    {
+        "colorName": "White",
+        "colorValue": "#ffffff"
+    },
+    {
+        "colorName": "Gray",
+        "colorValue": "#e6e6e6"
+    },
+    {
+        "colorName": "Orange",
+        "colorValue": "#ffebd6"
+    },
+    {
+        "colorName": "Pink",
+        "colorValue": "#ffe1e9"
+    },
+    {
+        "colorName": "Purple",
+        "colorValue": "#e8d4ff"
+    },
+    {
+        "colorName": "Brown",
+        "colorValue": "#f2e3d1"
+    },
+    {
+        "colorName": "Lime",
+        "colorValue": "#f2fbd9"
+    },
+    {
+        "colorName": "Turquoise",
+        "colorValue": "#d8f2e8"
+    }
+]

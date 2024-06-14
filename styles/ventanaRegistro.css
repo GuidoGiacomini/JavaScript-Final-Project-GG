@@ -1,0 +1,121 @@
+/*Register*/
+.containerRegister{
+    width: 40vw;
+    height: 100vh;
+    background-color: hsla(38, 65%, 91%, 0.527);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.register{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25vw;
+    margin: 10vh auto;
+    background-color: hsla(0, 0%, 100%, 0.527);
+    border-radius: 20px;
+    padding: 25px;
+}
+#loginPlatforms{
+    display:grid;
+}
+#loginPlatforms a{
+    width: 20vw;
+    margin: 0 auto;
+    padding: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#loginPlatforms a:hover{
+    background-color: hsla(0, 0%, 60%, 0.096);
+}
+#loginPlatforms img{
+    max-width: 25px;
+    align-items: end;
+}
+#containerDetails{
+    margin: 30px 0 30px 0;
+}
+.registerInput{
+    margin: 10px auto 10px auto;
+    width: 25vw;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: thin;
+    border-radius: 10px;
+    text-align: start;
+}
+.containerRegister h2{
+    margin: 0 0 40px 0;
+    text-align: start;
+    font-size: 30px;
+}
+.containerRegister a{
+    color: rgba(0, 0, 0, 0.603);
+}
+.containerRegister input{
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.registerInput label{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.containerRegister p{
+    font-size: 13px;
+}
+#registerBtn{
+    padding: 15px;
+    background: rgb(255, 99, 99);
+    width: 25vw;
+    color:white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#registerBtn:hover{
+    cursor:pointer;
+    background: rgb(252, 110, 110);
+}
+
+/*Imagen*/
+
+#containerImgRegister{
+    width: 90vh;
+    height: 50vh;
+    position: relative;
+    top: -75vh;
+    left: 90vh;
+}
+#containerImgRegister img{
+    width: 500px;
+    height: 500px;
+}
+
+#quoteRegister{
+    background-color: hsl(43, 64%, 98%);
+    box-shadow: 0 0 10px rgba(121, 121, 121, 0.637);
+    border-radius: 10px;
+    width: 300px;
+    position: relative;
+    top: -16vh;
+    left: 22vw;
+    text-align: left;
+    padding: 5px 25px;
+}
+#quoteRegister h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+#quoteRegister p{
+    font-size: 18px;
+}

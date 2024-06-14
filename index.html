@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoApp</title>
+    <link id="favicon" rel="icon" href="img/favicon2.png" type="image/png">
+    <link rel="stylesheet" href="styles/ventanaBienvenida.css">
+    <link rel="stylesheet" href="styles/ventanaPrincipal.css">
+    <link rel="stylesheet" href="styles/ventanaRegistro.css">
+</head>
+<body>
+
+    <!-- Bienvenida usuario -->
+
+    <div id="ventanaBienvenida">
+        <h1>Organiza tu trabajo <br>y tu vida, por fin.</h1>
+        <h3>Concéntrate, organízate y trae calma a tu vida con TodoApp.<br> La aplicación de listas de pendientes y gestión de tareas n.º 1 del mundo.</h3>
+        <button id="startBtn">Pruébala gratis</button>
+        <div id="backgroundImages">
+            <img src="img/fondo.png" class="fondo">
+            <img src="img/celular.png" class="celular">
+        </div>
+        <div id="blank">
+            <div>
+                <h4>Más de 45 millones de personas y equipos confían su cordura y productividad a TodoApp</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registro usuario -->
+
+    <div class="containerRegister" id="primeraVentana">
+        <div class="register">
+            <h2>Regístrate</h2>
+            <div id="loginPlatforms">
+                <a href=""> <img src="img/google.png" alt="google">Continuar con Google</a><br>
+                <a href=""> <img src="img/facebook.png" alt="facebook">Continuar con Facebook</a><br>
+                <a href=""> <img src="img/apple.png" alt="apple">Continuar con Apple</a><br>
+            </div>
+            <hr>
+            <div id="containerDetails">    
+                <div class="registerInput">
+                    <label for="email">Email</label><br>
+                    <input id="email" type="text" placeholder="Introduce tu email..." value="example@email.com"><br>
+                </div>
+                <div class="registerInput">
+                    <label for="pW">Contraseña</label><br>
+                    <input id="pW" type="password" placeholder="Introduce tu contraseña..." value="testPass"><br>
+                </div>
+            </div>
+            <button id="registerBtn">Registrarme con mi email</button>
+            <p id="TYC">Al continuar con Google, Apple o tu email, aceptas los <br>
+            <a href="">Términos de servicio</a> y la <a href="">Política de privacidad de TodoApp</a></p>
+            <hr>
+            <p>¿Ya tienes cuenta? <a href="">Inicia sesión</a></p>
+        </div>
+        <div id="containerImgRegister">
+            <img id="imgRegister" src="img/register.png" alt="imagen registro">
+            <div id="quoteRegister">
+                <h4>Antes de TodoApp, mis listas de tareas estaban dispersas por doquier. Ahora todo está en orden y en un solo lugar.</h4>
+                <p>-Anónimo</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagina Principal -->
+
+    <div id="navBar">
+        <ul>
+            <li><button id="about">About Us</button></li>
+            <li><button id="hora">Hora</button></li>
+            <li><button id="registrarse">Registrarse</button></li>
+            <li><button id="home">Home</button></li>
+        </ul>
+    </div>
+    
+    <!-- Barra lateral -->
+    <div id="ventanaPrincipal">
+        <div id="sidebar">
+            <ul>
+                <li id="userLi"> Usuario 🗒</li>
+                <li>Buscador 🔍</li>
+                <li>Bandeja de entrada ✉</li>
+                <li>Hoy 🗓</li>
+                <li>Próximo 📅</li>
+                <li>Filtros y etiquetas 🗄</li>
+                <br>
+            </ul>
+            <div id="colores">
+                <img src="img/swatchbook.svg" alt="icon">
+            </div>
+        </div>
+
+        <!-- Contenedor de tareas -->
+        <div class="containerTasks" id="containerTasks">
+            <h2>Hoy</h2>
+            <button  class="addTaskBtn" id="addTaskBtn"> + Añadir tarea</button>
+            <div id="list1">
+                <ul id="ul1"></ul>
+            </div>
+            <div id="taskManager">
+                <input type="text" id="taskName" placeholder="Nombre de la tarea">
+                <div>
+                    <input id="addTask" type="text" placeholder="Descripción">
+                    <div id="otherOptions">
+                        <ul>
+                            <li>📅 Hoy</li>
+                            <li>🚩 Prioridad</li>
+                            <li>🕕 Recordatorios</li>
+                            <li>···</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="controlBtns">
+                        <button id="cancelBtn">Cancelar</button>
+                        <button id="addBtn">Añadir tarea</button>
+                    </div>
+                </div>  
+            </div>
+            <div id="imgPrincipalBackground">
+                <img src="img/principal.png" alt="imagen principal">
+                <h4>¿Qué necesitas hacer hoy?</h4>
+                <p>Por defecto, las tareas añadidas aquí vencerán hoy. Haz clic en + para añadir una tarea.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="tareas.js"></script>
+    <script src="cambioVentanas.js"></script>
+</body>
+</html>

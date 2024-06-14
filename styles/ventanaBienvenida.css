@@ -1,0 +1,59 @@
+/*Bienvenida*/
+#ventanaBienvenida{
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+#ventanaBienvenida h1{
+    font-size: 55px;
+    margin: 20vh auto 50px auto;
+}
+#ventanaBienvenida h3{
+    color: hsla(0, 0%, 0%, 0.562);
+}
+
+#startBtn{
+    margin: 25px auto;
+    padding: 15px;
+    background: rgb(255, 99, 99);
+    width: 10vw;
+    color:white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#startBtn:hover{
+    cursor:pointer;
+    background: rgb(252, 110, 110);
+
+}
+#backgroundImages {
+    position:relative;
+  }
+
+.fondo{
+    position: relative;
+}
+  
+.celular{
+    position: relative;
+    top: -700px;
+}
+#blank{
+    background-color: hsl(43, 64%, 98%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.123);
+    top: -115vh;
+}
+#blank h4{
+    margin: 80px auto;
+    font-style: italic;
+}
